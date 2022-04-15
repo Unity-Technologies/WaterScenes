@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
+  m_Name: HDRenderPipelineGlobalSettings
+  m_EditorClassIdentifier: 
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: 14b392ee213d25a48b1feddbd9f5a9be,
+    type: 2}
+  m_LookDevVolumeProfile: {fileID: 11400000, guid: 4594f4a3fb14247e192bcca6dc23c8ed,
+    type: 2}
+  m_RenderingPathDefaultCameraFrameSettings:
+    bitDatas:
+      data1: 73324160532610893
+      data2: 13799031440106553368
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
+    msaaMode: 1
+    materialQuality: 0
+  m_RenderingPathDefaultBakedOrCustomReflectionFrameSettings:
+    bitDatas:
+      data1: 135310754214733
+      data2: 4539628875361058840
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
+    msaaMode: 1
+    materialQuality: 0
+  m_RenderingPathDefaultRealtimeReflectionFrameSettings:
+    bitDatas:
+      data1: 139923391782733
+      data2: 13763000465807638544
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    sssCustomDownsampleSteps: 0
+    msaaMode: 1
+    materialQuality: 0
+  m_RenderPipelineResources: {fileID: 11400000, guid: 3ce144cff5783da45aa5d4fdc2da14b7,
+    type: 2}
+  m_RenderPipelineRayTracingResources: {fileID: 0}
+  beforeTransparentCustomPostProcesses: []
+  beforePostProcessCustomPostProcesses: []
+  afterPostProcessBlursCustomPostProcesses: []
+  afterPostProcessCustomPostProcesses: []
+  beforeTAACustomPostProcesses: []
+  defaultRenderingLayerMask: -1
+  renderingLayerNames:
+  - Default
+  - Water
+  lightLayerName0: Light Layer default
+  lightLayerName1: Light Layer 1
+  lightLayerName2: Light Layer 2
+  lightLayerName3: Light Layer 3
+  lightLayerName4: Light Layer 4
+  lightLayerName5: Light Layer 5
+  lightLayerName6: Light Layer 6
+  lightLayerName7: Light Layer 7
+  decalLayerName0: Decal Layer default
+  decalLayerName1: Decal Layer 1
+  decalLayerName2: Decal Layer 2
+  decalLayerName3: Decal Layer 3
+  decalLayerName4: Decal Layer 4
+  decalLayerName5: Decal Layer 5
+  decalLayerName6: Decal Layer 6
+  decalLayerName7: Decal Layer 7
+  lensAttenuationMode: 0
+  colorGradingSpace: 0
+  m_ObsoleteDiffusionProfileSettingsList:
+  - {fileID: 11400000, guid: 48e911a1e337b44e2b85dbc65b47a594, type: 2}
+  - {fileID: 11400000, guid: 879ffae44eefa4412bb327928f1a96dd, type: 2}
+  - {fileID: 11400000, guid: 7232c764f18eba34580238345a63336f, type: 2}
+  - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
+  - {fileID: 11400000, guid: 7ba9b83d68ade9a4daf93e163b0fbf0e, type: 2}
+  specularFade: 0
+  rendererListCulling: 0
+  DLSSProjectId: 000000
+  useDLSSCustomProjectId: 0
+  supportProbeVolumes: 0
+  autoRegisterDiffusionProfiles: 1
+  apvScenesData:
+    m_ObsoleteSerializedBakingSets: []
+    serializedBounds:
+    - sceneGUID: e048376f72be5994e8b93d88f7e071dc
+      bounds:
+        m_Center: {x: 0, y: 0, z: 60.75}
+        m_Extent: {x: 243, y: 121.5, z: 182.25}
+    - sceneGUID: 62a179fa9b5996647a896637e8d0ec5a
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 162, y: 81, z: 162}
+    - sceneGUID: aaa8f38430b24784db886cb867a5ec11
+      bounds:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 81, y: 81, z: 81}
+    serializedHasVolumes:
+    - sceneGUID: e048376f72be5994e8b93d88f7e071dc
+      hasProbeVolumes: 1
+    - sceneGUID: 62a179fa9b5996647a896637e8d0ec5a
+      hasProbeVolumes: 1
+    - sceneGUID: aaa8f38430b24784db886cb867a5ec11
+      hasProbeVolumes: 1
+    bakingSets:
+    - {fileID: 11400000, guid: 21a131fb22464bd4d8bb4a8a8b59b8d0, type: 2}
+    - {fileID: 11400000, guid: 46764443ccbfacb4a9727ac329dedef8, type: 2}
+    - {fileID: 11400000, guid: 2a87756c5edd49f47826d989c3099f7a, type: 2}
+    m_LightingScenario: Default
+  m_Version: 8
+  m_ShaderVariantLogLevel: 0
+  m_SupportRuntimeDebugDisplay: 0
+  m_ExportShaderVariants: 0
+  m_StripDebugVariants: 1
